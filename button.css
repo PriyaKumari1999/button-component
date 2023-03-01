@@ -25,16 +25,39 @@
 }
 .Default{
     width:70px;
-    background-color: rgb(139, 137, 137);;
+    background-color: rgb(207, 202, 202);
     padding: 5px;
     border-radius: 3px;
     border:none;
 }
 
 .large{
-    padding: 10px;
-    width: 65px;
+    padding: 13px;
+    width: 70px;
     border-radius: 4px;
     border:none;
-    background-color: rgb(139, 137, 137);
+    background-color: rgb(207, 202, 202);
+}
+.small{
+    border:none;
+    background-color: rgb(207, 202, 202);
+    border-radius: 4px;
+    padding: 5px;
+}
+.pill{
+    border:none;
+    background-color: rgb(207, 202, 202);
+    border-radius: 11px;
+    padding: 5px;
+    width: 40px;
+}
+.custom{
+    border:none;
+    background-image:linear-gradient(to right,  rgb(82, 13, 146),rgb(52, 123, 199));
+    width:70px;
+    color:white;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: ;
+
 }
